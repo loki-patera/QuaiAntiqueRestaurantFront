@@ -11971,6 +11971,37 @@ html {
   min-height: 100%;
 }
 
+p {
+  font-family: "Hind Madurai", serif;
+  font-size: 18px;
+}
+
+.hero-scene {
+  position: relative;
+}
+.hero-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/font-hero-scene.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6);
+}
+.hero-scene * {
+  position: relative;
+}
+.hero-scene .hero-scene-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 main {
   margin-bottom: 250px;
 }
