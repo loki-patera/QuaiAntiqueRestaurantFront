@@ -11989,7 +11989,7 @@ p {
   background-image: url(../images/font-hero-scene.jpg);
   background-size: cover;
   background-position: center;
-  filter: brightness(0.6);
+  filter: brightness(0.8);
 }
 .hero-scene * {
   position: relative;
@@ -12004,6 +12004,10 @@ p {
 
 main {
   margin-bottom: 250px;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 footer.footer {
